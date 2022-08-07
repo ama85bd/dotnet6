@@ -9,7 +9,8 @@ namespace dotnet6.Services.CharacterService
     {
         private static List<Character> characters = new List<Character> {
             new Character(),
-            new Character{ Id=1, Name = "Sam" }
+            new Character{ Id=1, Name = "Sam" },
+            new Character{ Id=2, Name = "Asif" }
         };
         public async Task<List<Character>> AddCharacter(Character newCharacter)
         {
