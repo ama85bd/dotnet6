@@ -14,6 +14,10 @@ namespace dotnet6.Services.CharacterService
             new Character{ Id=3, Name = "Ashique" },
             new Character{ Id=4, Name = "Aiman" },
             new Character{ Id=5, Name = "Ahlan" },
+            new Character{ Id=6, Name = "Shihan" },
+            new Character{ Id=7, Name = "Sumaya" },
+            new Character{ Id=8, Name = "Shamima" },
+            new Character{ Id=9, Name = "Motin" }
         };
         public async Task<List<Character>> AddCharacter(Character newCharacter)
         {
